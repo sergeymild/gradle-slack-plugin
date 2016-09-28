@@ -13,7 +13,7 @@ repositories {
 }
 
 group = 'com.github.sergeymild'
-version = '1.0.7'
+version = '1.0.8'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 

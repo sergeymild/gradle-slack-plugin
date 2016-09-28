@@ -22,7 +22,7 @@ class SlackPlugin implements Plugin<Project> {
 
         mTaskLogBuilder = new StringBuilder()
         mExtension = project.extensions.create('slack', SlackPluginExtension)
-
+        println("apply(Project project)")
         project.afterEvaluate {
             if (mExtension.url != null && mExtension.enabled)
                 monitorTasksLifecyle(project)
@@ -65,7 +65,7 @@ class SlackPlugin implements Plugin<Project> {
 
     boolean shouldMonitorTask(Task task) {
         for (dependentTask in mExtension.dependsOnTasks) {
-            if (task.getName().equals(dependentTask)) {
+            if (task.getName() == dependentTask) {
                 return true
             }
         }
