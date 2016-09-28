@@ -1,11 +1,11 @@
-package com.mindera.gradle.slack.model
+package com.sergeymild.gradle.slack.model
 
 import net.gpedro.integrations.slack.SlackAttachment
 import net.gpedro.integrations.slack.SlackField
 import net.gpedro.integrations.slack.SlackMessage
 import org.gradle.api.Task
 import org.gradle.api.tasks.TaskState
-import com.mindera.gradle.slack.utils.GitUtils
+import com.sergeymild.gradle.slack.utils.GitUtils
 
 /**
  * Created by joaoprudencio on 09/05/15.

@@ -1,4 +1,4 @@
-package com.mindera.gradle.slack.utils
+package com.sergeymild.gradle.slack.utils
 
 /**
  * Created by joaoprudencio on 06/05/15.

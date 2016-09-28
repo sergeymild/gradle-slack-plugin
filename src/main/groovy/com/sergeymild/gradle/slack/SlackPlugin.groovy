@@ -1,6 +1,6 @@
-package com.mindera.gradle.slack
+package com.sergeymild.gradle.slack
 
-import com.mindera.gradle.slack.model.SlackMessageTransformer
+import com.sergeymild.gradle.slack.model.SlackMessageTransformer
 import net.gpedro.integrations.slack.SlackApi
 import net.gpedro.integrations.slack.SlackMessage
 import org.gradle.api.Plugin

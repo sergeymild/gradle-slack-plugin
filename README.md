@@ -29,7 +29,7 @@ buildscript {
 Apply it:
 
 ```groovy
-apply plugin: 'com.mindera.gradle.slack'
+apply plugin: 'com.sergeymild.gradle.slack'
 ```
 
 ## Configuration 
